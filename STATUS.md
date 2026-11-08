@@ -5,10 +5,10 @@ Légende : **Fonctionnel** · **Partiel** · **À connecter** · **À faire**
 | Domaine | État | Détail |
 | --- | --- | --- |
 | Monorepo GitHub + CI | Fonctionnel | `.github/workflows/ci.yml` : typecheck + build web, tests + build Docker worker |
-| Frontend Next.js (Vercel) | Fonctionnel | Page d'accueil + `/api/health` (état des intégrations) |
-| Worker vidéo (Railway) | Fonctionnel | FastAPI + FFmpeg, `/health` |
+| Frontend Next.js (Vercel) | À connecter | Code prêt ; l'app GitHub Vercel doit avoir accès au dépôt |
+| Worker vidéo (Railway) | Fonctionnel | Déployé (région Europe) : https://worker-production-e66d.up.railway.app/health |
 | Schéma base de données + RLS | Partiel | Migration `supabase/migrations/20261108000000_initial_schema.sql` écrite ; à appliquer dès que le projet Supabase existe |
-| Projet Supabase | À connecter | Limite de 2 projets gratuits atteinte sur le compte : mettre un projet en pause ou passer en Pro |
+| Projet Supabase | À connecter | À créer sur le compte Supabase mariangodes@gmail.com (connecteur à reconnecter) |
 | Authentification | À faire | Phase 2 |
 | Import vidéo | À faire | Phase 3 |
 | Découpage FFmpeg | À faire | Phase 4 |
